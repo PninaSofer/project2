@@ -53,7 +53,7 @@ class SettingsPage extends React.Component {
           });
         }
       });
-      console.log('here');
+
   }
 
   render() {

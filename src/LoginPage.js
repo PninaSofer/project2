@@ -45,7 +45,7 @@ class LoginPage extends React.Component {
                 } else {
                     this.setState({
                         showError: true,
-                        response: "Your account has been created!"
+                        response: "username or password does not exist"
                     })
                 }
             })

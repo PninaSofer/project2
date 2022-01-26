@@ -10,7 +10,6 @@ import Cookies from "universal-cookie";
 import StoresPage from "./StoresPage";
 import StorePage from "./StorePage";
 import SearchPage from "./SearchPage";
-import RegisterPage from "./RegisterPage";
 import MessagesBar from './MessagesBar';
 
 class App extends React.Component {
@@ -51,7 +50,6 @@ class App extends React.Component {
                             :
                             <div>
                                 <Route path={"/"} component={LoginPage}/>
-                                <Route path={"/register"} component={RegisterPage}/>
                             </div>
                     }
                 </BrowserRouter>
